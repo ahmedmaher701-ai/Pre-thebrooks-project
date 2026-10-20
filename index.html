@@ -26,4 +26,4 @@ const docs=[['Construction Progress Updates — Oct 2026','Construction','Monthl
 function filterDocs(f){document.querySelectorAll('.filters button').forEach(b=>b.classList.toggle('selected',b.textContent===f));document.getElementById('docList').innerHTML=docs.filter(d=>f==='All'||d[1]===f).map(d=>'<div class="doc"><span class="ico">▤</span><div><strong>'+d[0]+'</strong><small>'+d[2]+' · '+d[3]+'</small></div></div>').join('')}
 document.getElementById('filters').innerHTML=['All','Statements','Construction','Contracts','Receipts'].map(f=>'<button onclick="filterDocs(\''+f+'\')">'+f+'</button>').join('');filterDocs('All');
 function submitInquiry(){let value=document.getElementById('message').value.trim();alert(value?'Demo inquiry captured for preview only; it was not transmitted or saved.':'Please enter a message before submitting.')}
-</script></body></html>
+</script><script src="i18n.js"></script></body></html>
