@@ -28,3 +28,11 @@ In the GitHub repository, choose **Settings → Pages → Build and deployment �
 - Never upload real buyer identities, contracts, payment records or secrets to a public repository.
 
 This is a **GitHub-compatible compact frontend** of the PRE Buyer Portal rather than an exact copy of the original multi-file ZIP.
+
+
+## October 2026 bilingual update
+- Top-of-page Arabic / English language switch. Arabic uses right-to-left layout and preserves the selected language on this device.
+- `construction-report.html` summarizes the milestones and expected deliveries for the Club Residence buildings from the supplied October 2026 update.
+- `assets/project-gate.jpg` and `assets/block5.jpg` are low-resolution preview photographs extracted from the supplied construction report. They are not high-resolution originals.
+- The full 22-page source PDF is **not yet hosted in this repository**. The report page is a summary, and the original PDF remains a pending asset.
+- All buyer information, balances and the 72% completion illustration are demo-only, not sourced from buyer records or the monthly report.
